@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, #0BE000 , #FFFF00); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+.arrows{
+    margin-bottom: 1em;
+}
+
+.TtoB,.LtoR,.diogR,.diogL{
+  padding: 6px 29px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.TtoB:hover,.LtoR:hover,.diogR:hover,.diogL:hover {
+  background-color: #555555;
+  color: white;
+}
+.LR{
+    margin-bottom: 2.5em;
+}
+
+.colorL{
+    margin-right: 2em;
+}
+.colorR{
+    margin-left: 3em;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.7);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
