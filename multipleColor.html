@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multi-Gradient color</title>
+	<meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="wheel.js"></script>
+
+</head>
+<link rel="stylesheet" type="text/css" href="styl.css">
+<link rel="stylesheet" type="text/css" href="multyStyl.css">
+<body id="gradient">
+	<h1>BACKGROUND COLOUR SELECTOR</h1>
+	 <div class="arrows">
+	 	<input class="TtoB" type="button" name="" value="Back">
+	    
+<select name="colors" id="Colourselect">
+    <option value="2">Select the number of colours</option>
+    <option value="2">2 colours</option>
+    <option value="3">3 colours</option>
+    <option value="4">4 colours</option>
+    <option value="5">5 colours</option>
+    <option value="6">6 colours</option>
+    <option value="7">7 colours</option>
+    <option value="8">8 colours</option>
+    <option value="9">9 colours</option>
+    <option value="10">10 colours</option>
+
+</select>
+
+
+	 	<div class="center-content">
+        <div class="wheel">
+            <div class="progress"></div>
+                <div class="center">
+                    <span class="value"></span>
+                </div>
+                <a href="javascript:void(0)" class="handle"></a>
+            </div>
+        </div>
+	  </div>
+    <script>
+            $(function () {
+                $(".wheel").wheel({
+                    min: 0,
+                    max: 360,
+                    step: 5,
+                    onChange: function (value) {
+                        $(".wheel .value").html(Math.round(value) + "&deg;");
+                    }
+                });
+            });
+        </script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		
+	<div class="F5">
+			<label for="color1">1</label>
+			<input class="color1" type="color" name="color1" value="#018293">
+			
+			<label for="color2">2</label>		
+			<input class="color2" type="color" name="color2" value="#E61414">
+
+			<label for="color3">3</label>
+			<input class="color3" type="color" name="color3" value="#FFFF00">
+			
+			<label for="color4">4</label>		
+			<input class="color4" type="color" name="color4" value="#00FF00">
+
+			<label for="color5">5</label>
+			<input class="color5" type="color" name="color5" value="#0000FF">
+			
+	</div>
+	<div class="L5">
+		<label for="color6">6</label>		
+			<input class="color6" type="color" name="color6" value="#4B0082">
+
+			<label for="color7">7</label>
+			<input class="color7" type="color" name="color7" value="#9400D3">
+			
+			<label for="color8">8</label>		
+			<input class="color8" type="color" name="color8" value="#FFFF00">
+
+			<label for="color9">9</label>
+			<input class="color9" type="color" name="color9" value="#008000">
+			
+			<label for="color10">10</label>		
+			<input class="color10" type="color" name="color10" value="#FFFF00">
+	</div>
+	        
+	<h3>Hear is Your code.</h3>
+	<h2>Select the colour and angular direction you will get the linear gradient color code above.</h2>
+	<h5>Made by <a href="https://prathikshe.github.io/resume/">Prathik P Shet</a></h5>
+	<script type="text/javascript" src="multiColor.js"></script>
+</body>
+</html>
