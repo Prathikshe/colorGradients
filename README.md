@@ -5,6 +5,8 @@
  The generated color code can be used in Your Application gui as a color code.
  You can Visualise the generated color in the background of the page.
  
+ The web tool is online you can use it by opening this link "https://prathikshe.github.io/colorGradients/"
+ 
  * *-->In First Page*
  <img width="948" alt="page1" src="https://user-images.githubusercontent.com/63283543/126104116-6e563eaa-f019-4173-9559-f67b7c547773.png">
 
